@@ -1,0 +1,14 @@
+
+.clicker{
+    font-size: 40px;
+}
+
+#b_button{
+    background-color: yellow;
+    color: black;
+}
+
+#a_button{
+    background-color: black;
+    color: white;
+}
