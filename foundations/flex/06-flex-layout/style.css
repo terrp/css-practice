@@ -5,6 +5,41 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #eee;
+}
+
+.buttons{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+.input{
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -13,9 +48,11 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +60,12 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 16px
 }
